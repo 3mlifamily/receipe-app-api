@@ -1,0 +1,14 @@
+--Section 5.25 create "core" app
+ 
+   docker-compose run app sh -c "python manage.py startapp core"
+  
+   create a new folder inside core, named tests and a new file: __init__.py
+ 
+--Section 5.26 Add tests for custom user model
+
+  add core app to settings.py in INSTALLED_APPS 
+  add test_models.py inside tests/ folder
+
+--Section 5.27 Implement custom user model 
+
+  docker-compose run app sh -c "python manage.py makemigrations core"
