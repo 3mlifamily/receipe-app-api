@@ -1,6 +1,16 @@
+
+
+
+
 --Section 5.25 create "core" app
  
-   docker-compose run app sh -c "python manage.py startapp core"
+   docker-co
+~
+~
+~
+~
+~
+mpose run app sh -c "python manage.py startapp core"
   
    create a new folder inside core, named tests and a new file: __init__.py
  
